@@ -21,11 +21,6 @@ int main() {
         string input;
         std::cin >> input;
 
-        char * print;
-        print = (char *)malloc(input.size() + 1);
-        memcpy(print, input.c_str(), input.size() + 1);
-        printf(print);
-
         hist << input << "\n";
         hist.close();
 
